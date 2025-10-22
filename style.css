@@ -1,0 +1,82 @@
+
+    body { 
+      font-family: 'Inter', sans-serif; 
+      background: #121212; 
+      color: #e0e0e0; 
+      transition: all 0.3s ease; 
+    }
+
+    /* Navbar & Footer */
+    .navbar, footer, .bg-light { 
+      background: #1e1e1e !important; 
+      color: #e0e0e0; 
+    }
+
+    /* Cards */
+    .card, .profile-card, .cert, .hero-card { 
+      background: #1e1e1e; 
+      color: #e0e0e0; 
+      border-radius: 12px; 
+      transition: all 0.3s ease; 
+    }
+
+    /* Section Titles */
+    .section-title { font-weight: 600; }
+
+    /* Skill Bars */
+    .progress-bar { background: #0d6efd; transition: width 1s ease; }
+
+    /* Badges */
+    .badge.bg-white { background: #2c2c2c !important; color: #fff; border: 1px solid #444; }
+
+/* Base Colors */
+body {
+  font-family: 'Inter', sans-serif;
+  background: #fff;
+  color: #212529;
+  transition: all 0.3s ease;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode .card,
+body.dark-mode .profile-card,
+body.dark-mode .cert,
+body.dark-mode .hero-card {
+  background: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark-mode .navbar,
+body.dark-mode footer,
+body.dark-mode .bg-light {
+  background: #1e1e1e !important;
+}
+
+body.dark-mode .badge.bg-white {
+  background: #2c2c2c !important;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+/* Section Titles */
+.section-title {
+  font-weight: 600;
+}
+
+/* Skill Bars */
+.progress-bar {
+  background: #0d6efd;
+  transition: width 1s ease;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
